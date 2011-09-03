@@ -1,0 +1,151 @@
+diff -ruN batik-1.7.old/sources/batik-browser-ext.mf batik-1.7/sources/batik-browser-ext.mf
+--- batik-1.7.old/sources/batik-browser-ext.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-browser-ext.mf	2007-11-23 12:30:47.000000000 -0500
+@@ -1,4 +1,2 @@
+ Manifest-Version: 1.0
+-Class-Path: ../batik-squiggle.jar \
+-            ../lib/batik-extension.jar
+ Main-Class: org.apache.batik.apps.svgbrowser.Main
+diff -ruN batik-1.7.old/sources/batik-browser.mf batik-1.7/sources/batik-browser.mf
+--- batik-1.7.old/sources/batik-browser.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-browser.mf	2007-11-23 12:30:03.000000000 -0500
+@@ -1,23 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.svgbrowser.Main
+-Class-Path: lib/batik-ext.jar \
+-            lib/batik-dom.jar \
+-            lib/batik-css.jar \
+-            lib/batik-svg-dom.jar \
+-            lib/batik-gvt.jar \
+-            lib/batik-parser.jar \
+-            lib/batik-script.jar \
+-            lib/batik-bridge.jar \
+-            lib/batik-swing.jar \
+-            lib/batik-anim.jar \
+-            lib/batik-transcoder.jar \
+-            lib/batik-gui-util.jar \
+-            lib/batik-awt-util.jar \
+-            lib/batik-codec.jar \
+-            lib/batik-util.jar \
+-            lib/batik-xml.jar \
+-            lib/xerces_2_5_0.jar \
+-            lib/xalan-2.6.0.jar \
+-            lib/xml-apis.jar \
+-            lib/xml-apis-ext.jar \
+-            lib/js.jar
+diff -ruN batik-1.7.old/sources/batik.mf batik-1.7/sources/batik.mf
+--- batik-1.7.old/sources/batik.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik.mf	2007-11-23 12:31:02.000000000 -0500
+@@ -1,29 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.svgbrowser.Main
+-Class-Path: lib/batik-ext.jar \
+-            lib/batik-dom.jar \
+-            lib/batik-css.jar \
+-            lib/batik-svg-dom.jar \
+-            lib/batik-gvt.jar \
+-            lib/batik-parser.jar \
+-            lib/batik-script.jar \
+-            lib/batik-bridge.jar \
+-            lib/batik-swing.jar \
+-            lib/batik-anim.jar \
+-            lib/batik-transcoder.jar \
+-            lib/batik-gui-util.jar \
+-            lib/batik-awt-util.jar \
+-            lib/batik-codec.jar \
+-            lib/batik-util.jar \
+-            lib/batik-root.jar \
+-            lib/batik-svggen.jar \
+-            lib/batik-xml.jar \
+-            batik-squiggle.jar \
+-            batik-rasterizer.jar \
+-            batik-pp.jar \
+-            lib/xerces_2_5_0.jar \
+-            lib/xalan-2.6.0.jar \
+-            lib/xml-apis.jar \
+-            lib/xml-apis-ext.jar \
+-            lib/pdf-transcoder.jar \
+-            lib/js.jar
+diff -ruN batik-1.7.old/sources/batik-pp.mf batik-1.7/sources/batik-pp.mf
+--- batik-1.7.old/sources/batik-pp.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-pp.mf	2007-11-23 12:30:39.000000000 -0500
+@@ -1,10 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.svgpp.Main
+-Class-Path: lib/batik-ext.jar \
+-            lib/batik-dom.jar \
+-            lib/batik-parser.jar \
+-            lib/batik-transcoder.jar \
+-            lib/batik-util.jar \
+-            lib/batik-xml.jar \
+-            lib/xml-apis.jar \
+-            lib/xml-apis-ext.jar
+diff -ruN batik-1.7.old/sources/batik-rasterizer-ext.mf batik-1.7/sources/batik-rasterizer-ext.mf
+--- batik-1.7.old/sources/batik-rasterizer-ext.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-rasterizer-ext.mf	2007-11-23 12:30:54.000000000 -0500
+@@ -1,4 +1,2 @@
+ Manifest-Version: 1.0
+-Class-Path: ../batik-rasterizer.jar \
+-            ../lib/batik-extension.jar
+ Main-Class: org.apache.batik.apps.rasterizer.Main
+diff -ruN batik-1.7.old/sources/batik-rasterizer.mf batik-1.7/sources/batik-rasterizer.mf
+--- batik-1.7.old/sources/batik-rasterizer.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-rasterizer.mf	2007-11-23 12:30:20.000000000 -0500
+@@ -1,22 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.rasterizer.Main
+-Class-Path: lib/batik-ext.jar \
+-            lib/batik-dom.jar \
+-            lib/batik-css.jar \
+-            lib/batik-svg-dom.jar \
+-            lib/batik-gvt.jar \
+-            lib/batik-parser.jar \
+-            lib/batik-script.jar \
+-            lib/batik-bridge.jar \
+-            lib/batik-anim.jar \
+-            lib/batik-transcoder.jar \
+-            lib/batik-awt-util.jar \
+-            lib/batik-codec.jar \
+-            lib/batik-util.jar \
+-            lib/batik-xml.jar \
+-            lib/xerces_2_5_0.jar \
+-            lib/xalan-2.6.0.jar \
+-            lib/xml-apis.jar \
+-            lib/xml-apis-ext.jar \
+-            lib/pdf-transcoder.jar \
+-            lib/js.jar
+diff -ruN batik-1.7.old/sources/batik-slideshow.mf batik-1.7/sources/batik-slideshow.mf
+--- batik-1.7.old/sources/batik-slideshow.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-slideshow.mf	2007-11-23 12:30:31.000000000 -0500
+@@ -1,23 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.slideshow.Main
+-Class-Path: lib/batik-ext.jar \
+-            lib/batik-dom.jar \
+-            lib/batik-css.jar \
+-            lib/batik-svg-dom.jar \
+-            lib/batik-gvt.jar \
+-            lib/batik-parser.jar \
+-            lib/batik-script.jar \
+-            lib/batik-bridge.jar \
+-            lib/batik-swing.jar \
+-            lib/batik-anim.jar \
+-            lib/batik-transcoder.jar \
+-            lib/batik-gui-util.jar \
+-            lib/batik-awt-util.jar \
+-            lib/batik-codec.jar \
+-            lib/batik-util.jar \
+-            lib/batik-xml.jar \
+-            lib/xerces_2_5_0.jar \
+-            lib/xalan-2.6.0.jar \
+-            lib/xml-apis.jar \
+-            lib/xml-apis-ext.jar \
+-            lib/js.jar
+diff -ruN batik-1.7.old/sources/batik-ttf2svg.mf batik-1.7/sources/batik-ttf2svg.mf
+--- batik-1.7.old/sources/batik-ttf2svg.mf	2007-03-26 11:53:18.000000000 -0400
++++ batik-1.7/sources/batik-ttf2svg.mf	2007-11-23 12:30:11.000000000 -0500
+@@ -1,4 +1,2 @@
+ Manifest-Version: 1.0
+ Main-Class: org.apache.batik.apps.ttf2svg.Main
+-Class-Path: lib/batik-svggen.jar \
+-            lib/batik-util.jar
